@@ -1,8 +1,8 @@
 This is a simple exercise on learning about RAG. It has no useful purpose other than sharing with a few people.
 
-I took a sample RAG tutorial from [Hugging Face article](https://huggingface.co/blog/ngxson/make-your-own-rag)
+I took a RAG tutorial from [Hugging Face article](https://huggingface.co/blog/ngxson/make-your-own-rag)
 
-It works of course. But I wanted to see if I can use another language like TS and Golang. It does after a bit of massaging and GH Copilot was a LOT of help
+It works of course. But I wanted to see if I can use another languages like TS and Golang. It works after a bit of massaging and GH Copilot was a LOT of help. Even the python script from HuggingFace had one minor issue. Go was the easiest to translate to, that was surprising.
 
 All three versions gave wildly different results for the same prompt. I found out why and set the temperature to 0.1 for all versions. This made it much more stable and gave similar results as expected.
 
