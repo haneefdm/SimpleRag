@@ -1,0 +1,29 @@
+# Ignore VS Code settings and workspace files
+.vscode/
+*.code-workspace
+
+# Ignore build and output folders for all languages
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.tsbuildinfo
+bin/
+*.exe
+*.test
+*.out
+*.mod
+*.sum
+*.cover
+*.pb.go
+*.a
+*.o
+*.so
+*.dll
+*.dylib
+coverage.out

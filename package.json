@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --project ts/tsconfig.json",
+    "start": "node ts/dist/myrag.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Haneef Mohammed <haneefdm@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "@types/readline-sync": "^1.4.8",
+    "axios": "^1.11.0",
+    "ollama": "^0.5.17",
+    "readline-sync": "^1.4.10"
+  }
+}

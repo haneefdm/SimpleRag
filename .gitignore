@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.env
+*.egg-info/
+.eggs/
+.env
+.env.*
+
+# TypeScript
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+*.sum
+*.cover
+*.pb.go
+*.a
+*.o
+*.so
+*.dll
+*.dylib
+coverage.out
+go/ragchat
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# General
+*.swp
+*.swo
+*~
