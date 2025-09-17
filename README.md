@@ -28,6 +28,6 @@ cat ../prompt.txt | ./ragchat
 
 # Observations
 1. Temperature has a HUGE impact on results
-2. While the prompt did ask the model to look at other sources, it seemed like it was getting some info from other places. We should try setting temperature to 0
+2. While the prompt+context did ask the model to NOT look at other sources, it seemed like it was getting info from other places. If you ask "How many planets are there in the solar system", you will get an answer while it confesses that it does not have any info on that. We should try setting temperature to 0
 3. Try timing these commands. Even though all three have Ollama REST APIs to deal with, the Go version is still roughly 3 times faster
 4. Play with your own prompts and hopefully your observations are similar to mine.
